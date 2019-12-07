@@ -1,1 +1,144 @@
+<<<<<<< Updated upstream
 /* No CSS *//*# sourceMappingURL=style.css.map */
+=======
+body {
+  background-image: url("../img/baggrund-tilpassetOpacity.png");
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.logodiv {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.Logo {
+  position: relative;
+  width: 90%;
+  top: 130px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container1 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  margin-top: 300px;
+}
+
+.Button {
+  background-color: #D77F52;
+  text-align: center;
+  border-radius: 25px;
+  color: white;
+  margin: auto;
+  height: 50px;
+  width: 200px;
+}
+
+.Buttontxt {
+  line-height: 45px;
+  font-size: 1.7em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+  margin-top: 120px;
+  width: 100%;
+}
+
+.LinkforgottenPasswordtxt {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1.7em;
+  font-family: 'Montserrat', sans-serif;
+  height: 50px;
+}
+
+::-webkit-input-placeholder {
+  color: #D6D7D6;
+}
+
+:-ms-input-placeholder {
+  color: #D6D7D6;
+}
+
+::-ms-input-placeholder {
+  color: #D6D7D6;
+}
+
+::placeholder {
+  color: #D6D7D6;
+}
+
+:-ms-input-placeholder {
+  color: #D6D7D6;
+}
+
+::-ms-input-placeholder {
+  color: #D6D7D6;
+}
+
+Form {
+  margin: 200px 40px 0 40px;
+}
+
+.Form1 {
+  margin-top: 300px;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1.7em;
+  font-family: 'Montserrat', sans-serif;
+  color: #D6D7D6;
+  height: 50px;
+}
+
+input[type=submit] {
+  background-color: #D77F52;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  font-size: 1.7em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.forgottenPasswordtxt {
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  color: #073179;
+  text-align: left;
+  margin-top: 0;
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> Stashed changes
