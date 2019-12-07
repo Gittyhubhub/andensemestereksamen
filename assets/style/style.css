@@ -150,9 +150,26 @@ footer {
 }
 
 .statistic {
+  height: 200px;
   border-radius: 15px;
   margin: 20px;
   overflow: hidden;
+}
+
+.graf {
+  height: 100%;
+}
+
+.statisticTal {
+  height: 280px;
+  border-radius: 20px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.grafTal {
+  padding: 2px;
+  width: 330px;
 }
 
 input[type=text], select {
