@@ -22,10 +22,7 @@ body {
   width: 60%;
   text-align: center;
   margin-top: 10px;
-<<<<<<< HEAD
-=======
   height: 10%;
->>>>>>> master
 }
 
 .top {
@@ -152,6 +149,12 @@ footer {
   color: white;
 }
 
+.statistic {
+  border-radius: 15px;
+  margin: 20px;
+  overflow: hidden;
+}
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -243,9 +246,9 @@ input[type=submit] {
 .formcontrol {
   text-align: center;
   background-color: #B5CE87;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
 .formcontrol .form-inline {
@@ -299,7 +302,7 @@ input[type=submit] {
   font-size: 1em;
   margin: 5px;
   color: black;
-  width: 70px;
+  width: 65px;
 }
 
 form.form-inline {
