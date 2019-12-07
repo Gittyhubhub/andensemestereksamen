@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-image: url("../img/baggrund-tilpassetOpacity.png");
   margin: 0;
@@ -15,6 +16,30 @@ body {
   position: relative;
   width: 90%;
   top: 130px;
+}
+
+.HeadingProfileTextKia {
+  margin-left: 10px;
+  position: absolute;
+  font-size: 1.7em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.HeadingProfileTextToyota {
+  margin-left: 10px;
+  position: absolute;
+  font-size: 1.7em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.HeadingProfileTextCitroën {
+  margin-left: 10px;
+  position: absolute;
+  font-size: 1.7em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 a {
@@ -53,6 +78,33 @@ footer {
   font-family: 'Montserrat', sans-serif;
   color: white;
   text-decoration: none;
+}
+
+.flexcontainer1 {
+  background-color: #B4D4C2;
+}
+
+.flexcontainer2 {
+  background-color: #B5CE87;
+}
+
+.flexcontainer3 {
+  background-color: #D77F52;
+}
+
+.profil1 {
+  margin-left: 50px;
+  height: 192.333px;
+}
+
+.profil2 {
+  margin-left: 50px;
+  height: 192.333px;
+}
+
+.profil3 {
+  margin-left: 50px;
+  height: 192.333px;
 }
 
 input[type=text], select {
