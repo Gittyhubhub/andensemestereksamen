@@ -35,6 +35,14 @@ body {
   background-color: #B4D4C2;
 }
 
+.map {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url("../img/gpskort.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
 h2 {
   font-size: 1.7em;
   font-family: 'Montserrat', sans-serif;
