@@ -1,10 +1,14 @@
 
 
 body{
-    background-image: url("../img/baggrund-tilpassetOpacity.png");
     margin: 0;
     padding: 0;
     text-align: center;
+    background: url("../img/baggrund-tilpassetOpacity.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .logodiv{
@@ -18,3 +22,21 @@ body{
     width: 90%;
     top:130px;
 }
+
+.top{
+top: 20px;
+margin-bottom: 20px;
+}
+
+.bg-orange{
+    background-color:orange;
+}
+
+.bg-green{
+    background-color: #B5CE87;
+}
+
+.bg-blue{
+    background-color: #B4D4C2;
+}
+

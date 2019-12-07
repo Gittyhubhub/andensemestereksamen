@@ -1,9 +1,9 @@
-@charset "UTF-8";
 body {
-  background-image: url("../img/baggrund-tilpassetOpacity.png");
   margin: 0;
   padding: 0;
   text-align: center;
+  background: url("../img/baggrund-tilpassetOpacity.png") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .logodiv {
@@ -18,28 +18,26 @@ body {
   top: 130px;
 }
 
-.HeadingProfileTextKia {
-  margin-left: 10px;
-  position: absolute;
-  font-size: 1.7em;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+.top {
+  top: 20px;
+  margin-bottom: 20px;
 }
 
-.HeadingProfileTextToyota {
-  margin-left: 10px;
-  position: absolute;
-  font-size: 1.7em;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+.bg-orange {
+  background-color: orange;
 }
 
-.HeadingProfileTextCitroën {
-  margin-left: 10px;
-  position: absolute;
+.bg-green {
+  background-color: #B5CE87;
+}
+
+.bg-blue {
+  background-color: #B4D4C2;
+}
+
+h2 {
   font-size: 1.7em;
   font-family: 'Montserrat', sans-serif;
-  color: white;
 }
 
 a {
@@ -80,31 +78,25 @@ footer {
   text-decoration: none;
 }
 
-.flexcontainer1 {
-  background-color: #B4D4C2;
+.garage-flex {
+  margin-top: 30px;
+  margin-bottom: -30px;
+  height: 230px;
+  overflow: hidden;
 }
 
-.flexcontainer2 {
-  background-color: #B5CE87;
+.garage-flex h2 {
+  position: absolute;
+  text-align: left;
+  margin-left: 10px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.flexcontainer3 {
-  background-color: #D77F52;
-}
-
-.profil1 {
-  margin-left: 50px;
-  height: 192.333px;
-}
-
-.profil2 {
-  margin-left: 50px;
-  height: 192.333px;
-}
-
-.profil3 {
-  margin-left: 50px;
-  height: 192.333px;
+.garage-flex a img {
+  margin-left: 40px;
+  height: 200px;
 }
 
 input[type=text], select {
