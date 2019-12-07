@@ -93,8 +93,12 @@ input[type=text], select {
   color: #D6D7D6;
 }
 
-.signupForm {
+Form {
   margin: 200px 40px 0 40px;
+}
+
+.Form1 {
+  margin-top: 300px;
 }
 
 input[type=password], select {
@@ -124,5 +128,13 @@ input[type=submit] {
   font-size: 1.7em;
   font-family: 'Montserrat', sans-serif;
   color: white;
+}
+
+.forgottenPasswordtxt {
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  color: #073179;
+  text-align: left;
+  margin-top: 0;
 }
 /*# sourceMappingURL=style.css.map */
