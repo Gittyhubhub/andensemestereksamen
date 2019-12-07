@@ -11,6 +11,7 @@ body{
     background-size: cover;
 }
 
+
 .logodiv{
     position: relative;
     width: 100%;
@@ -21,6 +22,13 @@ body{
     position: relative;
     width: 90%;
     top:130px;
+}
+
+.LogoSmall{
+    width: 60%;
+    text-align: center;
+    margin-top: 10px;
+    
 }
 
 .top{
@@ -38,5 +46,16 @@ margin-bottom: 20px;
 
 .bg-blue{
     background-color: #B4D4C2;
+}
+
+.map{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url("../img/gpskort.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 

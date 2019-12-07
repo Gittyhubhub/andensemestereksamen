@@ -18,6 +18,12 @@ body {
   top: 130px;
 }
 
+.LogoSmall {
+  width: 60%;
+  text-align: center;
+  margin-top: 10px;
+}
+
 .top {
   top: 20px;
   margin-bottom: 20px;
@@ -33,6 +39,14 @@ body {
 
 .bg-blue {
   background-color: #B4D4C2;
+}
+
+.map {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: url("../img/gpskort.png") no-repeat center center fixed;
+  background-size: cover;
 }
 
 h2 {
@@ -184,5 +198,76 @@ input[type=submit] {
   color: #073179;
   text-align: left;
   margin-top: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.formcontrol {
+  text-align: center;
+  background-color: #B5CE87;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.formcontrol .form-inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+}
+
+.formcontrol .form-inline input[type=text], .formcontrol .form-inline select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 0.5em;
+  font-family: 'Montserrat', sans-serif;
+  color: #D6D7D6;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.formcontrol .form-inline input[type=text] .form-inline label, .formcontrol .form-inline select .form-inline label {
+  margin: 5px 5px 5px 0;
+}
+
+.formcontrol .form-inline input[type=text] .form-inline label .form-inline input, .formcontrol .form-inline select .form-inline label .form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+.form-inline button {
+  padding: 3px 6px;
+  background-color: #D77F52;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  color: white;
+  font-size: 1em;
+  margin: 5px;
+  color: black;
+  width: 70px;
+}
+
+form.form-inline {
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
