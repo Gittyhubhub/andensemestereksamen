@@ -1,0 +1,50 @@
+@import "../helpers/mixins";
+
+.nav-shortcut{
+    background-image: linear-gradient(#B5CE87, #5B6744);
+    display: flex;
+    justify-content: space-evenly;
+    .nav-shortcut__item{
+        display: block;
+        padding: 10px;
+        i.fas{
+            float:none;
+            width: 36px;
+            margin: 0 auto;
+            display: block;
+            font-size: 30px;
+        }
+        span{
+            color: white;
+            margin-top: 10px;
+            display: block;
+        }
+    }
+}
+.nav-cards{
+    overflow: hidden;
+    .nav-card__item{
+        @include box-shadow;
+        width: 182px;
+        height:118px;
+        float: left;
+        margin: 10px;
+        background-color: #D77F52;
+        border-radius: 6px;
+        position: relative;
+        span{
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            float: left;
+            margin: 6px 0 0 6px;
+
+        }
+        i.fas{
+            font-size: 70px;
+            position: absolute;
+            right: 15px;
+            bottom: 10px;
+        }
+    }
+}

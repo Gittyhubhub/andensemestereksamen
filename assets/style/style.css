@@ -50,6 +50,10 @@ body {
   background-size: cover;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 h2 {
   font-size: 1.7em;
   font-family: 'Montserrat', sans-serif;
@@ -324,5 +328,91 @@ input[type=submit] {
 
 form.form-inline {
   margin: auto;
+}
+
+.nav-shortcut {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#B5CE87), to(#5B6744));
+  background-image: linear-gradient(#B5CE87, #5B6744);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-shortcut .nav-shortcut__item {
+  display: block;
+  padding: 10px;
+}
+
+.nav-shortcut .nav-shortcut__item i.fas {
+  float: none;
+  width: 36px;
+  margin: 0 auto;
+  display: block;
+  font-size: 30px;
+}
+
+.nav-shortcut .nav-shortcut__item span {
+  color: white;
+  margin-top: 10px;
+  display: block;
+}
+
+.nav-cards {
+  overflow: hidden;
+}
+
+.nav-cards .nav-card__item {
+  -webkit-box-shadow: 6px 8px 5px 10px rgba(0, 0, 0, 0.16);
+  box-shadow: 6px 8px 5px 10px rgba(0, 0, 0, 0.16);
+  width: 182px;
+  height: 118px;
+  float: left;
+  margin: 10px;
+  background-color: #D77F52;
+  border-radius: 6px;
+  position: relative;
+}
+
+.nav-cards .nav-card__item span {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  float: left;
+  margin: 6px 0 0 6px;
+}
+
+.nav-cards .nav-card__item i.fas {
+  font-size: 70px;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+
+.consumption-highlights {
+  position: relative;
+  overflow: hidden;
+}
+
+.consumption-highlights .consumption-highlight__item {
+  background-color: #073179;
+  border-radius: 50px 0 0 50px;
+  float: right;
+  margin: 10px 0;
+}
+
+.consumption-highlights .consumption-highlight__item:nth-child(2) h2 {
+  padding-left: 10px;
+}
+
+.consumption-highlights .consumption-highlight__item h2 {
+  color: white;
+  font-size: 18px;
+  padding: 15px 0 15px 25px;
+  text-align: right;
+  margin: 0 10px;
+  font-weight: 100;
 }
 /*# sourceMappingURL=style.css.map */
