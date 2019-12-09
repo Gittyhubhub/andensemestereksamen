@@ -1,11 +1,15 @@
+@import "../helpers/mixins";
+
 .consumption-highlights{
     position: relative;
     overflow: hidden;
+    margin:20px 0;
     .consumption-highlight__item{
         background-color: #073179;
         border-radius: 50px 0 0 50px;
         float: right;
         margin: 10px 0;
+        @include box-shadow;
 
         &:nth-child(2){
             h2{

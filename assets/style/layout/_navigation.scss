@@ -4,6 +4,9 @@
     background-image: linear-gradient(#B5CE87, #5B6744);
     display: flex;
     justify-content: space-evenly;
+    margin: 60px 0 20px 0;
+    @include box-shadow;
+
     .nav-shortcut__item{
         display: block;
         padding: 10px;
@@ -16,13 +19,14 @@
         }
         span{
             color: white;
-            margin-top: 10px;
             display: block;
         }
     }
 }
 .nav-cards{
     overflow: hidden;
+    margin: 20px 0 20px 5px;
+
     .nav-card__item{
         @include box-shadow;
         width: 182px;
