@@ -6,6 +6,11 @@ body {
   background-size: cover;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .top {
   top: 20px;
   margin-bottom: 20px;
@@ -47,6 +52,7 @@ h3 {
 
 p {
   color: white;
+  margin: 0;
 }
 
 .fas {
@@ -155,6 +161,58 @@ footer {
 .grafTal {
   padding: 2px;
   width: 330px;
+}
+
+.nav-cards {
+  overflow: hidden;
+  margin: 20px 0 20px 5px;
+}
+
+.nav-cards.nav-cards--margin {
+  margin-top: 0px;
+}
+
+.nav-cards .nav-card__item {
+  -webkit-box-shadow: 6px 8px 5px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 6px 8px 5px 0px rgba(0, 0, 0, 0.16);
+  width: 182px;
+  height: 118px;
+  float: left;
+  margin: 10px;
+  background-color: #D77F52;
+  border-radius: 6px;
+  position: relative;
+}
+
+.nav-cards .nav-card__item span {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  float: left;
+  margin: 6px 0 0 6px;
+}
+
+.nav-cards .nav-card__item i.fas {
+  font-size: 70px;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+
+.nav-cards .nav-card__item h3 {
+  color: white;
+  margin: 6px 0px 20px 7px;
+  text-align: left;
+}
+
+.nav-cards .nav-card__item p {
+  color: black;
+}
+
+.nav-cards .nav-card__item img {
+  height: 70px;
+  width: 150px;
+  margin: -14px;
 }
 
 input[type=text], select {
@@ -371,38 +429,6 @@ form.form-inline {
   display: block;
 }
 
-.nav-cards {
-  overflow: hidden;
-  margin: 20px 0 20px 5px;
-}
-
-.nav-cards .nav-card__item {
-  -webkit-box-shadow: 6px 8px 5px 0px rgba(0, 0, 0, 0.16);
-  box-shadow: 6px 8px 5px 0px rgba(0, 0, 0, 0.16);
-  width: 182px;
-  height: 118px;
-  float: left;
-  margin: 10px;
-  background-color: #D77F52;
-  border-radius: 6px;
-  position: relative;
-}
-
-.nav-cards .nav-card__item span {
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-  float: left;
-  margin: 6px 0 0 6px;
-}
-
-.nav-cards .nav-card__item i.fas {
-  font-size: 70px;
-  position: absolute;
-  right: 15px;
-  bottom: 10px;
-}
-
 .consumption-highlights {
   position: relative;
   overflow: hidden;
@@ -429,5 +455,9 @@ form.form-inline {
   text-align: right;
   margin: 0 10px;
   font-weight: 100;
+}
+
+.carImage {
+  padding: 15px;
 }
 /*# sourceMappingURL=style.css.map */

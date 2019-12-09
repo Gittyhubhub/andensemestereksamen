@@ -23,32 +23,3 @@
         }
     }
 }
-.nav-cards{
-    overflow: hidden;
-    margin: 20px 0 20px 5px;
-
-    .nav-card__item{
-        @include box-shadow;
-        width: 182px;
-        height:118px;
-        float: left;
-        margin: 10px;
-        background-color: #D77F52;
-        border-radius: 6px;
-        position: relative;
-        span{
-            color: white;
-            font-size: 22px;
-            font-weight: bold;
-            float: left;
-            margin: 6px 0 0 6px;
-
-        }
-        i.fas{
-            font-size: 70px;
-            position: absolute;
-            right: 15px;
-            bottom: 10px;
-        }
-    }
-}

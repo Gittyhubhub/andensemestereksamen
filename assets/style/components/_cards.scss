@@ -1,3 +1,5 @@
+@import "../helpers/mixins";
+
 .garage-flex{
     margin-top: 30px;
     margin-bottom: -30px;
@@ -61,4 +63,52 @@ margin: 10px;
 .grafTal{
     padding: 2px;
     width: 330px;
+}
+
+.nav-cards{
+    overflow: hidden;
+    margin: 20px 0 20px 5px;
+    &.nav-cards--margin{
+        margin-top: 0px;
+    }
+
+    .nav-card__item{
+        @include box-shadow;
+        width: 182px;
+        height:118px;
+        float: left;
+        margin: 10px;
+        background-color: #D77F52;
+        border-radius: 6px;
+        position: relative;
+        span{
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            float: left;
+            margin: 6px 0 0 6px;
+
+        }
+        i.fas{
+            font-size: 70px;
+            position: absolute;
+            right: 15px;
+            bottom: 10px;
+        }
+        h3{
+            color: white;
+            margin: 6px 0px 20px 7px;
+            text-align: left;
+
+        }
+        p{
+            color: black;
+
+        }
+        img{
+            height: 70px;
+            width: 150px;
+            margin: -14px;
+        }
+    }
 }
