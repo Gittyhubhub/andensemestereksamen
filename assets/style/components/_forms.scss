@@ -138,3 +138,27 @@ form.form-inline{
 }
 
 
+.search-bar{
+  background-image: linear-gradient(#B5CE87, #5B6744);
+  margin-top: 15px;
+
+  .search-field{
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    input{
+      border-radius: 6px;
+      background-color: white;
+      color: black;
+      margin:6px 0;
+      height: 30px;
+    }
+    i.fas{
+      position: absolute;
+      right: 5px;
+      bottom: 10px;
+      font-size: 20px;
+    }
+  }
+}
+        
