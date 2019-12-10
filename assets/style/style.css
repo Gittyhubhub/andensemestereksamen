@@ -115,6 +115,59 @@ footer {
   text-decoration: none;
 }
 
+.btn-orange {
+  border-radius: 18px;
+  background-color: #D77F52;
+  border: none;
+  width: 95%;
+  margin: 10px auto;
+  color: white;
+  height: 36px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.selection-buttons {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 30px;
+  border-radius: 5px;
+  padding: 2px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.selection-buttons button {
+  background: none;
+  border: none;
+  width: 30%;
+}
+
+.selection-buttons button:first-child {
+  margin-lefT: -10px;
+}
+
+.selection-buttons button.active {
+  background-color: #BDBDBD;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.selection-buttons button i.fas {
+  font-size: 20px;
+  width: 25px;
+  margin: 0 auto;
+  float: none;
+}
+
 .garage-flex {
   margin-top: 30px;
   margin-bottom: -30px;
@@ -410,13 +463,67 @@ form.form-inline {
   font-size: 20px;
 }
 
+.route-area {
+  background-color: #073179;
+  position: relative;
+  border-radius: 10px;
+  width: 95%;
+  margin: 10px auto;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.route-area .connecting-line {
+  position: absolute;
+  left: 28px;
+  top: 47px;
+  height: 21px;
+  background-color: red;
+  width: 4px;
+}
+
+.route-area .route-area__field {
+  overflow: hidden;
+}
+
+.route-area .route-area__field .circle-area {
+  border-radius: 50%;
+  background-color: #BDBDBD;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 13px 15px;
+  color: white;
+}
+
+.route-area .route-area__field .circle-area span {
+  margin-top: 5px;
+  display: block;
+}
+
+.route-area .route-area__field input {
+  max-width: 72%;
+  float: left;
+  height: 42px;
+}
+
+.route-area .route-area__field i.fas {
+  float: left;
+}
+
+.route-area .route-area__field:last-child i.fas {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-left: 5px;
+}
+
 #mainHeader {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 #mainHeader .logo {
@@ -436,6 +543,11 @@ form.form-inline {
 #mainHeader .logo img {
   height: 100%;
   width: 100%;
+}
+
+#mainHeader a i.fas {
+  margin-top: 10px;
+  font-size: 25px;
 }
 
 .nav-shortcut {
@@ -566,5 +678,42 @@ form.form-inline {
   height: 110px;
   position: absolute;
   bottom: 0;
+}
+
+.selection-container {
+  background-color: #B5CE87;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.selection-container .selection-entry {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.selection-container .selection-entry .selection-entry__item {
+  border-bottom: 2px solid black;
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+
+.selection-container .selection-entry .selection-entry__item:last-child {
+  border-bottom: 0;
+}
+
+.selection-container .selection-entry .selection-entry__item h3 {
+  margin: 5px 0;
+  font-weight: 100;
+}
+
+.selection-container .selection-entry .selection-entry__item h3 span {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

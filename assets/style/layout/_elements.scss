@@ -87,3 +87,35 @@
     }
   }
 }
+
+.selection-container{
+    background-color:#B5CE87;
+    width:100%;
+    overflow:hidden;
+    padding:10px;
+    .selection-entry{
+        background-color:white;
+        padding:15px;
+        border-radius:5px;
+        overflow: hidden;
+        margin: 10px 0;
+        box-shadow:0 0 5px rgba(0, 0, 0, 0.4);
+
+        .selection-entry__item{
+            border-bottom:2px solid black;
+            float:left;
+            width:100%;
+            text-align: left;
+            &:last-child{
+                border-bottom:0;
+            }
+            h3{
+                margin: 5px 0;
+                font-weight: 100;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
