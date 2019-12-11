@@ -1,0 +1,46 @@
+.webshop{
+    margin-top: 25px;
+    background-color: rgba(255,255,255,0.4);
+    .webshop__item{
+        margin: 20px 0;
+        display:flex; 
+        .webshop__item__image{
+            border: 2px solid white;
+            img{
+                height: 125px;
+                width: 125px;
+            }
+        }
+        .webshop__item__info{
+            padding: 10px;
+            h3{
+                color: black;
+            }
+            p{
+                color:black;
+                font-size: 14px;
+                span{
+                    color: gray;
+                }
+            }
+        }
+        .webshop__item__actions{
+
+            .btn-add-basket{
+                background-color: #D77F52;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 5px;
+                margin-bottom: 5px;
+            }
+            .btn-more{
+                background-color: gray;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 5px;
+            }
+        }
+    }
+}
