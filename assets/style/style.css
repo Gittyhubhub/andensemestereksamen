@@ -517,6 +517,66 @@ form.form-inline {
   margin-left: 5px;
 }
 
+.chat .chat__send {
+  width: 100%;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.chat .chat__send .chat__send__inner {
+  background-color: #B5CE87;
+  padding: 10px;
+  float: right;
+  max-width: 60%;
+  border-radius: 10px;
+}
+
+.chat .chat__send p {
+  color: black;
+}
+
+.chat .chat__received {
+  width: 100%;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.chat .chat__received .chat__received__inner {
+  background-color: white;
+  padding: 10px;
+  float: left;
+  max-width: 60%;
+  border-radius: 10px;
+}
+
+.chat .chat__received p {
+  color: black;
+}
+
+.chat-input {
+  background-color: #0F2A4A;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.chat-input input {
+  width: 84%;
+  height: 35px;
+}
+
+.chat-input .chat-input__btn {
+  background: none;
+  border: none;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+
+.chat-input .chat-input__btn i.far {
+  color: #D77F52;
+  font-size: 30px;
+}
+
 #mainHeader {
   display: -webkit-box;
   display: -ms-flexbox;

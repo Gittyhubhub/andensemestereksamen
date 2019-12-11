@@ -212,3 +212,59 @@ form.form-inline{
     }
   }
 }
+.chat{
+  .chat__send{
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+
+
+    .chat__send__inner{
+      background-color: #B5CE87;
+      padding: 10px;
+      float: right;
+      max-width: 60%;
+      border-radius: 10px;
+    }
+    p{
+      color: black;
+    }
+  }
+  .chat__received{
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+
+    .chat__received__inner{
+      background-color: white;
+      padding: 10px;
+      float: left;
+      max-width: 60%;
+      border-radius: 10px;
+
+    }
+    p{
+      color: black;
+    }
+  }
+}
+.chat-input{
+  background-color: #0F2A4A;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  input{
+    width: 84%;
+    height: 35px;
+  }
+  .chat-input__btn{
+    background: none;
+    border: none;
+    margin-left: 3px;
+    margin-top: 5px;
+    i.far{
+      color: #D77F52;
+      font-size: 30px;
+    }
+  }
+}
