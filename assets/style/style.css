@@ -830,6 +830,53 @@ form.form-inline {
   background-size: cover;
 }
 
+.carfails .blueprint {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px gray;
+          box-shadow: 0 0 10px gray;
+  margin-top: 25px;
+  position: relative;
+}
+
+.carfails .blueprint:last-child {
+  margin-top: 5px;
+}
+
+.carfails .blueprint img {
+  margin: 20px 0px 30px;
+}
+
+.carfails .blueprint .red-dot {
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  position: absolute;
+}
+
+.carfails .blueprint .red-dot:nth-child(odd) {
+  top: 100px;
+  right: 40px;
+}
+
+.carfails .blueprint .red-dot:nth-child(even) {
+  bottom: 65px;
+  right: 65px;
+}
+
+.carfails .blueprint h3 {
+  font-size: 2em;
+  margin: 20px;
+}
+
+.carfails .blueprint p {
+  font-size: 2em;
+  color: black;
+}
+
 .webshop {
   margin-top: 25px;
   background-color: rgba(255, 255, 255, 0.4);

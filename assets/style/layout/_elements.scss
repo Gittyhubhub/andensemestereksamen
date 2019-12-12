@@ -130,3 +130,44 @@
     -o-background-size: cover;
     background-size: cover;
 }
+.carfails{
+    .blueprint{
+        background-color: rgba(255, 255, 255 , 0.8);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px gray;
+        margin-top: 25px;
+        position: relative;
+        &:last-child{
+            margin-top:5px;
+        }
+        img{
+            margin: 20px 0px 30px;
+        }
+        .red-dot{
+            background-color: red;
+            height: 20px;
+            width: 20px;
+            border-radius: 50px;
+            position: absolute;
+            &:nth-child(odd){
+                top: 100px;
+                right: 40px;
+            }
+            &:nth-child(even){
+                bottom: 65px;
+                right: 65px;
+            }
+        }
+        h3{
+            font-size: 2em;
+            margin: 20px;
+        }
+        p{
+            font-size: 2em;
+            color: black;
+        }
+    }
+}
+
