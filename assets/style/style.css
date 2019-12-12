@@ -583,6 +583,29 @@ form.form-inline {
   font-size: 30px;
 }
 
+.fuel-registration {
+  margin-top: 30px;
+  margin: 30px;
+}
+
+.fuel-registration .mile-counter {
+  background-color: #0F2A4A;
+  border-radius: 6px;
+  width: 90%;
+  margin: 30px 40px 15px 25px;
+}
+
+.fuel-registration .mile-counter .mile-counter__field {
+  margin: 10px;
+}
+
+.fuel-registration .mile-counter .mile-counter__field h3 {
+  float: left;
+  color: white;
+  margin: 10px 3px 10px 0px;
+  margin-bottom: 0px;
+}
+
 #mainHeader {
   display: -webkit-box;
   display: -ms-flexbox;
