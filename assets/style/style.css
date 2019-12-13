@@ -77,6 +77,125 @@ p {
   font-size: 20px;
 }
 
+.styleguideBody {
+  background: none;
+}
+
+.containerColors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.containerColor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.color__text {
+  color: black;
+  margin: 10px;
+  text-align: left;
+}
+
+.color {
+  min-height: 150px;
+  min-width: 150px;
+  margin: 10px;
+  border-radius: 80px;
+}
+
+.color.color--green {
+  background-color: #B4D4C2;
+}
+
+.color.color--limegreen {
+  background-color: #B5CE87;
+}
+
+.color.color--orange {
+  background-color: #D77F52;
+}
+
+.color.color--greysemidark {
+  background-color: #BDBDBD;
+}
+
+.color.color--darkgrey {
+  background-color: #A0A0A0;
+}
+
+.color.color--darklightgrey {
+  background-color: #cccccc;
+}
+
+.color.color--lightgrey {
+  background-color: #D6D7D6;
+}
+
+.color.color--lighdarkblue {
+  background-color: #073179;
+}
+
+.color.color--white {
+  background-color: #ffffff;
+}
+
+.color.color--lightergrey {
+  background-color: #DDDDDD;
+}
+
+.color.color--black {
+  background-color: #000000;
+}
+
+.color.color--darkgreen {
+  background-color: #5B6744;
+}
+
+.color.color--red {
+  background-color: #FF0000;
+}
+
+.color.color--darkblue {
+  background-color: #0F2A4A;
+}
+
+.color.color--darkestblue {
+  background-color: #000033;
+}
+
+.color.color--greygreen {
+  background-color: #77B290;
+}
+
+.color.color--lightergreen {
+  background-color: #B4D4C2;
+}
+
+.color.color--greyblue {
+  background-color: #284A72;
+}
+
+.color.color--blueblue {
+  background-color: #0000CC;
+}
+
+.color.color--darkergrey {
+  background-color: #808080;
+}
+
 a {
   text-decoration: none;
 }
@@ -1028,7 +1147,7 @@ form.form-inline {
 }
 
 .webshop .webshop__item .webshop__item__actions .btn-more {
-  background-color: gray;
+  background-color: #808080;
   color: white;
   border: none;
   border-radius: 5px;

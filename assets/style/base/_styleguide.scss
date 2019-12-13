@@ -1,0 +1,115 @@
+
+.styleguideBody{
+    background:none;
+}
+.containerColors{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.containerColor{
+    display: flex;
+    flex-direction: column;
+
+}
+.color__text{
+    color: black;
+    margin:10px ;
+    text-align: left;
+}
+
+.color{
+    min-height: 150px; 
+    min-width: 150px;
+    margin: 10px; 
+    border-radius: 80px;
+    
+
+    &.color--green{
+        background-color:#B4D4C2 ; 
+    }
+
+    &.color--limegreen{
+        background-color:#B5CE87;
+    }
+
+    &.color--orange{
+        background-color:#D77F52;
+    }
+
+    &.color--greysemidark{
+        background-color: #BDBDBD;
+    }
+
+    &.color--darkgrey{
+        background-color: #A0A0A0;
+    }
+
+    &.color--darklightgrey{
+        background-color: #cccccc;
+    }
+
+    &.color--lightgrey{
+        background-color: #D6D7D6;
+    }
+
+    &.color--lighdarkblue{
+        background-color: #073179;
+    }
+
+    &.color--white{
+        background-color: #ffffff;
+    }
+
+    &.color--lightergrey{
+        background-color: #DDDDDD;
+    }
+
+    &.color--black{
+        background-color: #000000;
+    }
+
+    &.color--darkgreen{
+    background-color:#5B6744;
+    }
+
+    &.color--red{
+        background-color: #FF0000;
+    }
+
+    &.color--darkblue{
+        background-color: #0F2A4A;
+    }
+
+    &.color--darkestblue{
+        background-color: #000033;
+    }
+
+    &.color--greygreen{
+        background-color: #77B290;
+    }
+
+    &.color--lightergreen{
+        background-color: #B4D4C2;
+    }
+
+    &.color--greyblue{
+        background-color: #284A72;
+    }
+
+    &.color--blueblue{
+        background-color: #0000CC;
+    }
+
+    &.color--darkergrey{
+        background-color: #808080;
+    }
+}
+
+
+
+
+
+
+
