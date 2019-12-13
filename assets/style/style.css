@@ -710,6 +710,31 @@ form.form-inline {
   margin-bottom: 0px;
 }
 
+#login-form button {
+  background-color: #D77F52;
+  text-align: center;
+  border-radius: 25px;
+  color: white;
+  margin: auto;
+  height: 50px;
+  width: 200px;
+  line-height: 45px;
+  font-size: 1.7em;
+  font-family: 'Montserrat', sans-serif;
+  border: 0;
+}
+
+#login-form #login-form__message {
+  display: none;
+}
+
+#login-form #login-form__message p {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+
 #mainHeader {
   display: -webkit-box;
   display: -ms-flexbox;
