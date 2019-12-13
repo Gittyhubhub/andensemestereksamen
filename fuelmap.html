@@ -3,21 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Navn på side</title>
+    <title>Fuel map</title>
     <link href="./assets/style/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="map">
-    <header>
-        <a href="#">
+    <header id="mainHeader" class="header--above">
+        <a href="fuel.html">
             <i class="fas fa-arrow-left"></i>
         </a>
-    
-        <div class="logodiv">
+        <div class="logo logo--small">
             <img src="assets/img/LogoSmall.png" alt="Billede af DriveClevers logo" class="LogoSmall">
         </div>
-    </header>
+    </header> 
 
 <div class="mapTxtBox">
     <div class="varighed">
@@ -33,7 +32,14 @@
         <h3 class="maptxt">114 km</h3>
     </div>
 </div>
-
+<div class="nav-wheel" id="nav-wheel__container">
+    <button class="nav-wheel__main" id="nav-wheel__btn">
+      <i class="fas fa-car"></i>
+    </button>
+    <a class="nav-wheel__sublink" href="carstatus.html">
+        <i class="fas fa-tachometer-alt"></i>
+    </a>
+  </div>
     <!--scripts always at the bottom-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
