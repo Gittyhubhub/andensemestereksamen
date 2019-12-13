@@ -17,7 +17,7 @@ img {
 }
 
 .bg-orange {
-  background-color: orange;
+  background-color: #D77F52;
 }
 
 .bg-green {
@@ -587,7 +587,7 @@ form.form-inline {
   left: 28px;
   top: 47px;
   height: 21px;
-  background-color: red;
+  background-color: #FF0000;
   width: 4px;
 }
 
@@ -938,8 +938,8 @@ form.form-inline {
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 10px gray;
-          box-shadow: 0 0 10px gray;
+  -webkit-box-shadow: 0 0 10px #BDBDBD;
+          box-shadow: 0 0 10px #BDBDBD;
   margin-top: 25px;
   position: relative;
 }
@@ -953,7 +953,7 @@ form.form-inline {
 }
 
 .carfails .blueprint .red-dot {
-  background-color: red;
+  background-color: #FF0000;
   height: 20px;
   width: 20px;
   border-radius: 50px;
