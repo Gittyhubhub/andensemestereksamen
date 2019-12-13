@@ -117,3 +117,100 @@ margin: 10px;
     width: 90%;
     margin: 20px 20px 20px;
 }
+
+.modal-container{
+    opacity: 0;
+    width: 100%;
+}
+
+.backdrop{
+    display: none;
+    margin: auto;
+    background-color: #D77F52;
+    width: 70%;
+    border-top-left-radius: 25px;
+    box-shadow: 4px 10px 8px #888888;
+
+    .fa-times{
+        color: white;
+        float: right;
+        margin: 0;
+        margin-right: 5px;
+    }
+
+    .modal{
+        display: none;   
+        margin: auto;
+        width: 80%;
+
+        
+
+        .erorMessage{
+            font-size: 2em;
+            margin: 20px;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        .erorCode{
+            margin-bottom: 10px;
+            float: left;
+            font-family: 'Montserrat', sans-serif
+        }
+        
+
+        .errorSolution{
+            margin-bottom: 10px;
+            display: inline-block;
+            font-family: 'Montserrat', sans-serif
+
+        }
+
+           
+        
+    }
+
+    .flexContainerPopup{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        margin-top: 20px;
+    } 
+    .watcheror{
+        background-image: linear-gradient(#B5CE87, #5B6744);
+        width: 100%;
+        font-size: 1.5em;
+        border: none;
+        padding: 15px;
+        color: white;
+        font-family: 'Montserrat', sans-serif
+    }
+
+    .contactWorkshop{
+        background-image: linear-gradient(#B5CE87, #5B6744);
+        left: 0;
+        width: 100%;
+        font-size: 1.5em;
+        border: none;
+        padding: 15px;
+        color: white;
+        font-family: 'Montserrat', sans-serif
+    }
+
+    .containerInfo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-bottom: 10px;
+
+        .fas{
+            margin-left: 10px;
+            margin-bottom: 5px;
+            margin-top: 2px;
+            color: white;
+
+        }
+    }
+}
+
