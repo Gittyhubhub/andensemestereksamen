@@ -30,7 +30,7 @@
     bottom:5%;
     margin-left: -40px;
     .nav-wheel__main, .nav-wheel__sublink{
-      background-color:orange;
+      background-color:#D77F52;
       border:0;
       color:white;
       width:70px;
@@ -52,6 +52,21 @@
         font-size:32px;
         margin-left:13px;
         color:white;
+      }
+      &.icon--margin-left{
+        i.far, i.fas{
+          margin-left:0;
+        }
+      }
+      &.icon--margin-left--20{
+        i.far, i.fas{
+          margin-left: 20px;
+        }
+      }
+      &.icon--margin-left--18{
+        i.far, i.fas{
+          margin-left: 18px;
+        }
       }
     }
   

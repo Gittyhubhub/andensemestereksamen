@@ -825,7 +825,7 @@ form.form-inline {
 }
 
 .nav-wheel .nav-wheel__main, .nav-wheel .nav-wheel__sublink {
-  background-color: orange;
+  background-color: #D77F52;
   border: 0;
   color: white;
   width: 70px;
@@ -851,6 +851,18 @@ form.form-inline {
   font-size: 32px;
   margin-left: 13px;
   color: white;
+}
+
+.nav-wheel .nav-wheel__main.icon--margin-left i.far, .nav-wheel .nav-wheel__main.icon--margin-left i.fas, .nav-wheel .nav-wheel__sublink.icon--margin-left i.far, .nav-wheel .nav-wheel__sublink.icon--margin-left i.fas {
+  margin-left: 0;
+}
+
+.nav-wheel .nav-wheel__main.icon--margin-left--20 i.far, .nav-wheel .nav-wheel__main.icon--margin-left--20 i.fas, .nav-wheel .nav-wheel__sublink.icon--margin-left--20 i.far, .nav-wheel .nav-wheel__sublink.icon--margin-left--20 i.fas {
+  margin-left: 20px;
+}
+
+.nav-wheel .nav-wheel__main.icon--margin-left--18 i.far, .nav-wheel .nav-wheel__main.icon--margin-left--18 i.fas, .nav-wheel .nav-wheel__sublink.icon--margin-left--18 i.far, .nav-wheel .nav-wheel__sublink.icon--margin-left--18 i.fas {
+  margin-left: 18px;
 }
 
 .nav-wheel .nav-wheel__main {
