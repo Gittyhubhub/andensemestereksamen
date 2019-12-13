@@ -48,7 +48,7 @@
       &:focus{
         outline:none;
       }
-      i.fas{
+      i.fas, i.far{
         font-size:32px;
         margin-left:13px;
         color:white;
@@ -58,7 +58,7 @@
     .nav-wheel__main{
         text-align: center;
 
-        i.fas{
+        i.fas, i.far{
             margin-top:0;
         }
     }
@@ -68,7 +68,7 @@
       text-align:center;
       //opacity:0; // no good...
   
-      i.fas{
+      i.fas, i.far{
         margin-top:17px;
       }
     }

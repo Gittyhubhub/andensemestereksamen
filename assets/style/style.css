@@ -822,7 +822,7 @@ form.form-inline {
   outline: none;
 }
 
-.nav-wheel .nav-wheel__main i.fas, .nav-wheel .nav-wheel__sublink i.fas {
+.nav-wheel .nav-wheel__main i.fas, .nav-wheel .nav-wheel__main i.far, .nav-wheel .nav-wheel__sublink i.fas, .nav-wheel .nav-wheel__sublink i.far {
   font-size: 32px;
   margin-left: 13px;
   color: white;
@@ -832,7 +832,7 @@ form.form-inline {
   text-align: center;
 }
 
-.nav-wheel .nav-wheel__main i.fas {
+.nav-wheel .nav-wheel__main i.fas, .nav-wheel .nav-wheel__main i.far {
   margin-top: 0;
 }
 
@@ -842,7 +842,7 @@ form.form-inline {
   text-align: center;
 }
 
-.nav-wheel .nav-wheel__sublink i.fas {
+.nav-wheel .nav-wheel__sublink i.fas, .nav-wheel .nav-wheel__sublink i.far {
   margin-top: 17px;
 }
 
