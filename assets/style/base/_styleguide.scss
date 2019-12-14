@@ -117,7 +117,7 @@
             margin-left: 50px;
             margin-top: 80px;
             z-index:500;
-
+        }
             
         .emergency-popup-example-button{
             padding: 20px;
@@ -138,7 +138,7 @@
         }
     }
 }
-}
+
 
 .container__icons__flex__horizontal{
     display: flex;
@@ -179,14 +179,11 @@
         color: black;
         text-align: left;
         font-size: 1em;
-       
     }
 
 .pre__code{
     overflow-x: scroll;
     margin: 0;
-    
-
 } 
 
 pre{
@@ -204,6 +201,9 @@ textarea{
     flex-wrap: wrap;
     flex-direction: column;
     margin: auto;
+    p{
+        color:black;
+    }
 }
 
 .text_view{

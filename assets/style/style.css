@@ -205,7 +205,7 @@ p {
   z-index: 500;
 }
 
-.style-guide__container .style-guide__item .nav-wheel .emergency-popup-example-button {
+.style-guide__container .style-guide__item .emergency-popup-example-button {
   padding: 20px;
   background-color: #B5CE87;
   border: 0;
@@ -220,7 +220,7 @@ p {
   text-align: center;
 }
 
-.style-guide__container .style-guide__item .nav-wheel .paper-container {
+.style-guide__container .style-guide__item .paper-container {
   margin-bottom: 300px;
 }
 
@@ -296,6 +296,10 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: auto;
+}
+
+.container__typ__flex p {
+  color: black;
 }
 
 .text_view {
@@ -535,6 +539,12 @@ footer {
   border-top-left-radius: 25px;
   -webkit-box-shadow: 4px 10px 8px #888888;
           box-shadow: 4px 10px 8px #888888;
+  position: fixed;
+  z-index: 200;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .backdrop .fa-times {

@@ -18,15 +18,21 @@ if(mainBtn != null){
 }
 
 
-let x = document.getElementById("popup");
-let modal = document.getElementsByClassName("modal");
-let backdrop = document.getElementsByClassName("backdrop");
+const x = document.getElementById("popup");
+const modal = document.getElementsByClassName("modal");
+const backdrop = document.getElementsByClassName("backdrop");
+const closePopupBtn = document.getElementById('close-btn');
+
 if(x !== null){
     x.addEventListener("click", function(){
         if(typeof modal[0] !== "undefined" && typeof backdrop[0] != "undefined"){
             modal[0].style.display = "block";
             backdrop[0].style.display = "block";
         }
+    });
+    closePopupBtn.addEventListener("click", function(){
+        modal[0].style.display = "none";
+        backdrop[0].style.display = "none";
     });
 }
 /*

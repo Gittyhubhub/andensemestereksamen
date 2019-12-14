@@ -130,6 +130,13 @@ margin-top:100px;
     width: 70%;
     border-top-left-radius: 25px;
     box-shadow: 4px 10px 8px #888888;
+    position: fixed;
+    z-index: 200;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+
 
     .fa-times{
         color: white;
