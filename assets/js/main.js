@@ -35,3 +35,15 @@ if(x !== null){
    have det første element til rådighed. (hvis du ikke helt forstår det så læs op på javascript arrays.) 
 */
 
+
+const emerPopup = document.getElementsByClassName('emergency-popup');
+const triangleBtn = document.getElementById('warning-triangle');
+const closeBtn = document.getElementsByClassName('close');
+if(emerPopup !== null){
+    triangleBtn.addEventListener("click", function(){
+    emerPopup[0].classList.add("active");
+    });
+    closeBtn[0].addEventListener("click", function(){
+    emerPopup[0].classList.remove("active");
+});
+}

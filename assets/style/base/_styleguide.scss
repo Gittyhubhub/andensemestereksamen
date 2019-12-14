@@ -107,7 +107,35 @@
     }
 }
 
-
+.style-guide__container{
+    .style-guide__item{
+        .nav-wheel{
+            position: relative;
+            left:unset;
+            bottom:unset;
+            margin-left: 50px;
+            margin-top: 80px;
+            z-index:500;
+        }
+        .emergency-popup-example-button{
+            padding: 20px;
+            background-color: #B5CE87;
+            border: 0;
+            margin: 20px auto;
+            display: block;
+            width: 75%;
+            max-width: 190px;
+            -webkit-box-shadow: 0 0 8px grey;
+            box-shadow: 0 0 8px grey;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+        .paper-container{
+            margin-bottom:300px;
+        }
+    }
+}
 
 
 

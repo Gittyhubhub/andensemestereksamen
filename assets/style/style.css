@@ -196,6 +196,34 @@ p {
   background-color: #808080;
 }
 
+.style-guide__container .style-guide__item .nav-wheel {
+  position: relative;
+  left: unset;
+  bottom: unset;
+  margin-left: 50px;
+  margin-top: 80px;
+  z-index: 500;
+}
+
+.style-guide__container .style-guide__item .emergency-popup-example-button {
+  padding: 20px;
+  background-color: #B5CE87;
+  border: 0;
+  margin: 20px auto;
+  display: block;
+  width: 75%;
+  max-width: 190px;
+  -webkit-box-shadow: 0 0 8px grey;
+  box-shadow: 0 0 8px grey;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.style-guide__container .style-guide__item .paper-container {
+  margin-bottom: 300px;
+}
+
 a {
   text-decoration: none;
 }
@@ -221,6 +249,14 @@ a {
   line-height: 45px;
   font-size: 1.7em;
   font-family: 'Montserrat', sans-serif;
+}
+
+.btn-more {
+  background-color: #808080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 footer {
@@ -731,7 +767,7 @@ form.form-inline {
 }
 
 .route-area .route-area__field input {
-  max-width: 72%;
+  max-width: 70%;
   float: left;
   height: 42px;
 }
@@ -902,6 +938,59 @@ form.form-inline {
 #mainHeader a i.fas {
   margin-top: 10px;
   font-size: 25px;
+}
+
+.emergency-popup {
+  width: 70%;
+  max-width: 300px;
+  overflow: hidden;
+  padding: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  position: fixed;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: white;
+  -webkit-box-shadow: 0 0 8px gray;
+          box-shadow: 0 0 8px gray;
+  top: 50%;
+  left: -100%;
+  opacity: 0;
+  -webkit-transition: all 750ms cubic-bezier(0.218, 0.63, 0.325, 1);
+  transition: all 750ms cubic-bezier(0.218, 0.63, 0.325, 1);
+}
+
+.emergency-popup.active {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  -webkit-transition: all 750ms cubic-bezier(0.218, 0.63, 0.325, 1);
+  transition: all 750ms cubic-bezier(0.218, 0.63, 0.325, 1);
+  z-index: 500;
+}
+
+.emergency-popup a {
+  padding: 20px;
+  background-color: #B5CE87;
+  border: 0;
+  margin: 20px auto;
+  display: block;
+  width: 75%;
+  max-width: 190px;
+  -webkit-box-shadow: 0 0 8px gray;
+          box-shadow: 0 0 8px gray;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.emergency-popup .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: none;
+  background: none;
+  font-size: 18px;
 }
 
 .nav-shortcut {

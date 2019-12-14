@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Auto repair shop</title>
-    <link href="./assets/style/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Auto repair shop</title>
+        <link href="./assets/style/style.css" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    </head>
+    <body>
 
-    <header id="mainHeader">
+        <header id="mainHeader">
             <a href="index.html">
                 <i class="fas fa-arrow-left"></i>
             </a>
             <div class="logo logo--small">
-                <img src="assets/img/LogoSmall.png" alt="Billede af DriveClevers logo" class="LogoSmall">
+                <img src="assets/img/LogoSmall.png" alt="Billede af DriveClevers
+                    logo" class="LogoSmall">
             </div>
-            <a href="#">
+            <a href="#" id="warning-triangle">
                 <i class="fas fa-exclamation-triangle"></i>
             </a>
-    </header>
-    
-    <img src="assets/img/mekonomen.jpg" class="img--margin" alt="billede af mekonomen autoshop">
+            <div class="emergency-popup">
+                <button class="close"><i class="fas fa-times"></i></button>
+                <a href="tel:70202486">
+                    Tilkald Vejhjælp
+                </a>
+                <a href="tel:112">
+                    Tilkald 112
+                </a>
+            </div>
+        </header>
 
-    <div class="text-center">
-        <h2>Åbningstider</h2>
-        <h3>man - fre</h3>
-        <h3>06.00 - 22.00</h3>
-        <h3>lør - søn</h3>
-        <h3>08.00 - 20.00</h3>
+        <img src="assets/img/mekonomen.jpg" class="img--margin" alt="billede af
+            mekonomen autoshop">
 
-        <h2>Telefon</h2>
-        <h3>(+45) 27 41 33 88</h3>
+        <div class="text-center">
+            <h2>Åbningstider</h2>
+            <h3>man - fre</h3>
+            <h3>06.00 - 22.00</h3>
+            <h3>lør - søn</h3>
+            <h3>08.00 - 20.00</h3>
 
-        <h2>Mail</h2>
-        <h3>autorepair@mekonomen.dk</h3>
-    </div>
+            <h2>Telefon</h2>
+            <h3>(+45) 27 41 33 88</h3>
 
-    <!--scripts always at the bottom-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <!--scripts always at the bottom-->
-</body>
+            <h2>Mail</h2>
+            <h3>autorepair@mekonomen.dk</h3>
+        </div>
+
+        <!--scripts always at the bottom-->
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <!--scripts always at the bottom-->
+    </body>
 </html>

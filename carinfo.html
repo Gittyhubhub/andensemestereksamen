@@ -1,78 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Car info</title>
-    <link href="./assets/style/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Car info</title>
+        <link href="./assets/style/style.css" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    </head>
+    <body>
 
-    <header id="mainHeader">
+        <header id="mainHeader">
             <a href="index.html">
                 <i class="fas fa-arrow-left"></i>
             </a>
             <div class="logo logo--small">
-                <img src="assets/img/LogoSmall.png" alt="Billede af DriveClevers logo" class="LogoSmall">
+                <img src="assets/img/LogoSmall.png" alt="Billede af DriveClevers
+                    logo" class="LogoSmall">
             </div>
-            <a href="#">
+            <a href="#" id="warning-triangle">
                 <i class="fas fa-exclamation-triangle"></i>
             </a>
-    </header>
+            <div class="emergency-popup">
+                <button class="close"><i class="fas fa-times"></i></button>
+                <a href="tel:70202486">
+                    Tilkald Vejhjælp
+                </a>
+                <a href="tel:112">
+                    Tilkald 112
+                </a>
+            </div>
+        </header>
 
-<img src="assets/img/Toyota.png" class="image--padding" alt="billede af toyota">
+        <img src="assets/img/Toyota.png" class="image--padding" alt="billede af
+            toyota">
 
-     <div class="nav-cards nav-cards--margin">
-         <div class="nav-card__item">
-             <h3>Registrerings nr.</h3>
-             <p>CH 50311</p>
-         </div>
-         <div class="nav-card__item">
+        <div class="nav-cards nav-cards--margin">
+            <div class="nav-card__item">
+                <h3>Registrerings nr.</h3>
+                <p>CH 50311</p>
+            </div>
+            <div class="nav-card__item">
                 <h3>Kørekort</h3>
                 <img src="assets/img/koerekort.png" alt="billede af kørekort">
             </div>
-       
-        <div class="nav-card__item">
+
+            <div class="nav-card__item">
                 <h3>Dæktryk</h3>
                 <p>Forhjul 3,2 barre</p>
                 <p>Baghjul 4,1 barre</p>
             </div>
-      
-        <div class="nav-card__item">
+
+            <div class="nav-card__item">
                 <h3>Olie</h3>
                 <p>Castrol</p>
                 <p>Magnatec</p>
                 <p>5W/40</p>
             </div>
-        <div class="nav-card__item">
+            <div class="nav-card__item">
                 <h3>Næste vægtafgift</h3>
                 <p>02-01-2020</p>
             </div>
-        <div class="nav-card__item">
+            <div class="nav-card__item">
                 <h3>Syn næste gang</h3>
                 <p>28 februar 2021</p>
             </div>
-        <div class="nav-card__item">
+            <div class="nav-card__item">
                 <h3>Policer</h3>
                 <p>Kasko</p>
                 <p>Ansvars</p>
             </div>
-        <div class="nav-card__item">
+            <div class="nav-card__item">
                 <h3>Service</h3>
                 <p>14-10-2019</p>
                 <p>07-08-2019</p>
                 <p>03-01-2019</p>
+            </div>
         </div>
-     </div>
-    
-      
 
 
 
-    <!--scripts always at the bottom-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <!--scripts always at the bottom-->
-</body>
+
+
+        <!--scripts always at the bottom-->
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <!--scripts always at the bottom-->
+    </body>
 </html>
