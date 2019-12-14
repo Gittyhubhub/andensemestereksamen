@@ -1,6 +1,7 @@
 
 .styleguideBody{
     background:none;
+    
 }
 .containerColors{
     display: flex;
@@ -117,6 +118,7 @@
             margin-top: 80px;
             z-index:500;
         }
+            
         .emergency-popup-example-button{
             padding: 20px;
             background-color: #B5CE87;
@@ -138,6 +140,72 @@
 }
 
 
+.container__icons__flex__horizontal{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    color: black;
+    
+
+        .container__code__flex__vertical__{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        color: black;
+        color: black;
+        margin:auto;
+        text-align: center;
+        overflow: hidden;
+        margin-bottom: 10px;
+        }
+
+       
+
+        .icons{
+            margin: auto;
+            min-height: 100px;
+            padding: 10px;
+            max-width: 110px;
+            
+            
+        }
+           
+}
 
 
+    .code{
+        color: black;
+        text-align: left;
+        font-size: 1em;
+    }
 
+.pre__code{
+    overflow-x: scroll;
+    margin: 0;
+} 
+
+pre{
+    color: black;
+}
+
+textarea{
+    overflow-y: scroll;
+    width: 100%;
+    height: 200px;
+}
+
+.container__typ__flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    p{
+        color:black;
+    }
+}
+
+.text_view{
+    text-align: center;
+}
