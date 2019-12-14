@@ -688,7 +688,7 @@ input[type=submit] {
 .form-inline button {
   padding: 3px 6px;
   background-color: #D77F52;
-  border: 1px solid #ddd;
+  border: none;
   border-radius: 25px;
   color: white;
   font-size: 1em;
@@ -888,6 +888,27 @@ form.form-inline {
   font-size: 18px;
   font-weight: bold;
   margin: 10px;
+}
+
+table.table {
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+table.table thead tr th {
+  padding: 10px;
+}
+
+table.table tbody tr td {
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: top;
+  padding: 12px;
+}
+
+table.table tbody tr:last-child td {
+  border-bottom: none;
 }
 
 #mainHeader {

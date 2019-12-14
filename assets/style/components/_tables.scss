@@ -1,0 +1,28 @@
+table.table{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    thead{
+        tr{
+            th{
+                padding:10px;
+            }
+        }
+    }
+    tbody{
+        tr{
+            td{
+                border-bottom:1px solid #dee2e6;
+                vertical-align: top;
+                padding:12px;
+                
+            }
+            &:last-child{
+                td{
+                    border-bottom:none;
+                }
+            }
+        }
+    }
+}
