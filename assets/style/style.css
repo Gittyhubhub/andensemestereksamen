@@ -547,7 +547,7 @@ footer {
   color: white;
 }
 
-input[type=text], select {
+input[type=text], select, input[type=email] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -657,7 +657,7 @@ input[type=submit] {
   margin-left: 20px;
 }
 
-.formcontrol .form-inline input[type=text], .formcontrol .form-inline select {
+.formcontrol .form-inline input[type=text], .formcontrol .form-inline select, .formcontrol .form-inline input[type=email] {
   width: 20%;
   padding: 12px 20px;
   margin: 10px 0;
@@ -673,11 +673,11 @@ input[type=submit] {
   border-radius: 5px;
 }
 
-.formcontrol .form-inline input[type=text] .form-inline label, .formcontrol .form-inline select .form-inline label {
+.formcontrol .form-inline input[type=text] .form-inline label, .formcontrol .form-inline select .form-inline label, .formcontrol .form-inline input[type=email] .form-inline label {
   margin: 5px 5px 5px 0;
 }
 
-.formcontrol .form-inline input[type=text] .form-inline label .form-inline input, .formcontrol .form-inline select .form-inline label .form-inline input {
+.formcontrol .form-inline input[type=text] .form-inline label .form-inline input, .formcontrol .form-inline select .form-inline label .form-inline input, .formcontrol .form-inline input[type=email] .form-inline label .form-inline input {
   vertical-align: middle;
   margin: 5px 10px 5px 0;
   background-color: #fff;

@@ -1,5 +1,19 @@
 const loginForm = document.getElementById('login-form');
 
+// Add eventlistener on submit, and use the processform function.
+loginForm.addEventListener("submit", processForm);
+
+function processForm(e) {
+    if (e.preventDefault) e.preventDefault(); // stops default behavior. 
+    console.log("form captured!");
+    checkLogin();
+
+    // You must return false to prevent the default form behavior
+    return false;
+}
+
+
+
 // function for running the code that checks login credentials.
 function checkLogin(){
 
@@ -47,14 +61,3 @@ function checkLogin(){
     }
 }
 
-function processForm(e) {
-    if (e.preventDefault) e.preventDefault();
-    console.log("form captured!");
-    checkLogin();
-
-    // You must return false to prevent the default form behavior
-    return false;
-}
-
-// Add eventlistener on submit, and use the processform function.
-loginForm.addEventListener("submit", processForm);
